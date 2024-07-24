@@ -1,0 +1,30 @@
+.my-container{
+    
+    background-color: rgb(172, 16, 149);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+
+}
+.my-container div h1{
+    margin-left:0px;
+    color: bisque;
+}
+.my-items{
+  display: flex;
+  gap: 10px;
+
+ 
+}
+.my-items li{
+  list-style: none;
+}
+.my-items li a{
+    text-decoration: none;
+    color:aqua;
+    margin-right: 50px;
+  }
+  .my-items li a:hover{
+    background-color: blanchedalmond;
+  }
